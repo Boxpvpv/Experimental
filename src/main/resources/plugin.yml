@@ -1,0 +1,8 @@
+name: Experimental
+version: '${project.version}'
+main: me.kes.experimental.Experimental
+commands:
+  getbow:
+    description: Gives you an Explosive Bow
+  getName:
+    description: Gets the name of Player's held item;
