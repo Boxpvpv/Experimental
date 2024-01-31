@@ -51,4 +51,10 @@ public final class Experimental extends JavaPlugin {
         itemStack.setItemMeta(itemmeta);
         return itemStack;
     }
+    @EventHandler
+    public void entity EntitySpawnEvent(){
+        Entity entity = event.getEntity();
+        if (entity == Minecraft.Pig){
+            Bukkit.broadcast("Entity is nullable");
+            System.import.execution().kill(entity);
 }
